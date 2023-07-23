@@ -1,8 +1,10 @@
 {
     "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "##": "https://github.com/ScoopInstaller/Scoop/wiki",
     "version": "",
     "description": "",
     "homepage": "",
+    "##": "https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests#required-properties",
     "license": "",
     "notes": "",
     "architecture": {
@@ -30,22 +32,40 @@
     "uninstaller": {
         "script": ""
     },
-    "bin": "",
+    "##": "shims，会被加入环境变量，可以直接通过命令调用",
+    "bin": [
+        "program.exe",
+        [
+            "program.exe",
+            "alias",
+            "--arguments"
+        ]
+    ],
+    "shortcuts": [
+      [
+        "program.exe",
+        "program",
+      ]
+    ],
     "env_add_path": [
         "",
         ""
     ],
+    "##": "数据目录",
     "persist": [
-        "",
         ""
     ],
+    "##": "https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate",
     "checkver": {
+        "##": "github有默认正则",
         "url": "",
+        "##": "默认为匹配第一个匹配项",
         "regex": ""
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
+                "##": "https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate#internal-substitutable-variables",
                 "url": ""
             },
             "32bit": {
