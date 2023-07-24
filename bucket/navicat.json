@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download3.navicat.com/download/navicat162_premium_en_x64.exe"
+            "url": "https://download3.navicat.com/download/navicat152_premium_en_x64.exe"
         }
     },
     "innosetup": true,

@@ -32,7 +32,7 @@
     "uninstaller": {
         "script": ""
     },
-    "##": "shims，会被加入环境变量，可以直接通过命令调用",
+    "##": "shims，命令行快捷键(环境变量)",
     "bin": [
         "program.exe",
         [
@@ -41,6 +41,7 @@
             "--arguments"
         ]
     ],
+    "##": "快捷键(开始菜单-所有应用)",
     "shortcuts": [
       [
         "program.exe",
