@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-            "url": "https://download3.navicat.com/download/navicat$majorVersion$minorVersion_premium_en_x64.exe"
+                "url": "https://download3.navicat.com/download/navicat$majorVersion$minorVersion_premium_en_x64.exe"
             }
         },
         "hash": {
