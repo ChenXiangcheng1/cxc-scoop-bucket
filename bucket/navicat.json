@@ -8,7 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download3.navicat.com/download/navicat152_premium_en_x64.exe"
+            "url": "https://download3.navicat.com/download/navicat152_premium_en_x64.exe",
+            "hash": "50205281c86908058b4a434cb02997eafac1ecf8374196a9bc449c5e06b9e5d7"
         }
     },
     "innosetup": true,
@@ -28,6 +29,9 @@
             "64bit": {
             "url": "https://download3.navicat.com/download/navicat$majorVersion$minorVersion_premium_en_x64.exe"
             }
+        },
+        "hash": {
+            "url": "$url.sha256"
         }
     }
 }
