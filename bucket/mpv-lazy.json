@@ -6,8 +6,7 @@
     "notes": "使用前务必完整阅读 《新快速说明》(https://github.com/hooke007/MPV_lazy/discussions/194)",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hooke007/MPV_lazy/releases/download/20231101/mpv-lazy-20231101.exe#/dl.7z",
-            "hash": "0e690eeaca5bde92fa6494701d81ba31b674f78b8a3fc21feecb5f40e78ce259",
+            "url": "https://github.com/hooke007/MPV_lazy/releases/download/20231101/mpv-lazy-20231101.exe#/dl.7z",            
             "extract_dir": "mpv-lazy"
         }
     },
