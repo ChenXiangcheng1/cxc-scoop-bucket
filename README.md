@@ -1,6 +1,6 @@
 # cxc-scoop-bucket
 
-[![Tests](https://github.com/ChenXiangcheng1/cxc-scoop-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/ChenXiangcheng1/cxc-scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) 
+[![Tests](https://github.com/ChenXiangcheng1/cxc-scoop-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/ChenXiangcheng1/cxc-scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml)
 
 Personal bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
@@ -19,8 +19,3 @@ Apps
 |  navicat  |  Navicat Premium is a database development tool  |
 
 For details, see the files in the `./bucket` directory
-
-How do I contribute new manifests?
-----------------------------------
-
-To make a new manifest contribution, please read the [Contributing Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md).
