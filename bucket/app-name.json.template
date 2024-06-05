@@ -1,6 +1,7 @@
 {
     "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
     "##": "https://github.com/ScoopInstaller/Scoop/wiki",
+    "##": "https://ericzonglu.gitee.io/posts/tool-scoop-bucket.html",
     "version": "",
     "description": "",
     "homepage": "",
@@ -10,7 +11,8 @@
     "architecture": {
         "64bit": {
             "url": "",
-            "hash": ""
+            "hash": "",
+            "extract_dir": ""
         },
         "32bit": {
             "url": "",
@@ -64,10 +66,12 @@
         "regex": ""
     },
     "autoupdate": {
-        "architecture": {
+        "architecture": {            
             "64bit": {
                 "##": "https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate#internal-substitutable-variables",
-                "url": ""
+                "##": "#/ 表示另存为 xx.exe_dl.7z，之后会使用7zip提取，用于绕过可执行安装程序的副作用",
+                "url": "xx.exe#/dl.7z",
+                "extract_dir": ""
             },
             "32bit": {
                 "url": ""
