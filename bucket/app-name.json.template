@@ -7,7 +7,10 @@
     "description": "",
     "homepage": "",
     "##": "https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests#required-properties",
-    "license": "",
+    "license": {
+      "identifier": "Unknown",
+      "url": ""
+    },
     "notes": "",
     "architecture": {
         "64bit": {
