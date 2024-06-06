@@ -11,7 +11,7 @@
     "##": "hash: 08873507bf9918801843f600607e92a9d76233cd590eb1cec5c46dda2aeb45dd",
     "architecture": {
         "64bit": {
-            "url": "https://dl.pstmn.io/download/9.31.28/Postman-win64-9.31.28-full.nupkg#/dl.7z",            
+            "url": "https://dl.pstmn.io/download/9.31.28/Postman-win64-9.31.28-full.nupkg#/dl.7z",
             "hash": "64808849bf3905ae9356caf5682de61f501ee3776de6d23ea3952644bb9099de",
             "extract_dir": "lib\\net45"
         }
