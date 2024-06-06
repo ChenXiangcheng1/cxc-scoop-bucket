@@ -1,7 +1,7 @@
 {
     "version": "9.31.28",
     "description": "Postman9.31.28 without compulsory login and update",
-    "homepage": "https://www.postman.com/",  
+    "homepage": "https://www.postman.com/",
     "license": "Unknown",
     "notes": "Other architecture: \n https://dl.pstmn.io/download/version/9.31.28/win64 \n https://dl.pstmn.io/download/version/9.31.28/osx64 \n https://dl.pstmn.io/download/version/9.31.28/osx_arm64 \n https://dl.pstmn.io/download/version/9.31.28/linux_64 \n https://dl.pstmn.io/download/version/9.31.28/linux_arm64",
     "architecture": {
