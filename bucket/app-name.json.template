@@ -67,7 +67,7 @@
         "regex": ""
     },
     "autoupdate": {
-        "architecture": {            
+        "architecture": {
             "64bit": {
                 "##": "https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate#internal-substitutable-variables",
                 "##": "#/ 表示另存为 xx.exe_dl.7z，之后会使用7zip提取，用于绕过可执行安装程序的副作用",
