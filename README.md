@@ -7,7 +7,7 @@ Personal bucket for [Scoop](https://scoop.sh), the Windows command-line installe
 Usage
 -----
 
-To add this bucket, run `scoop bucket add cxc-scoop-bucket https://github.com/ChenXiangcheng1/cxc-scoop-bucket`. To install, do `scoop install <manifest>`.
+To add this bucket, run `scoop bucket add cxc-scoop-bucket https://github.com/ChenXiangcheng1/cxc-scoop-bucket`. To install, do `scoop install cxc-scoop-bucket/<manifest>`.
 
 Apps
 ----
