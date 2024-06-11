@@ -6,10 +6,12 @@
         "identifier": "Proprietary",
         "url": "https://www.navicat.com/en/store/navicat-premium-plan"
     },
+    "##": "https://download3.navicat.com/download/navicat170_premium_en_x64.exe",
     "architecture": {
         "64bit": {
-            "url": "https://download3.navicat.com/download/navicat170_premium_en_x64.exe",
-            "hash": "31645e7598fcd4b59c009e2d10a4385179565d833cad2c9eefba0fc314bbecc4"
+            
+            "url": "https://dn.navicat.com/download/navicat170_premium_en_x64.exe#/dl.7z",
+            "hash": "31645e7598fcd4b59c009e2d10a4385179565d833cad2c9eefba0fc314bbecc4"            
         }
     },
     "innosetup": true,

@@ -15,6 +15,7 @@
     "architecture": {
         "64bit": {
             "url": "",
+            "##": "certutil -hashfile C:\file\path\my_file.exe SHA256",
             "hash": "",
             "extract_dir": ""
         },
