@@ -7,7 +7,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dl.hdslb.com/bili/bililive/win/Livehime-Win-beta-6.11.1.7892-x64.exe#/dl.7z",
+            "url": "https://dl.hdslb.com/bili/bililive/win/Livehime-Win-beta-6.11.1.7892-x64.exe",
             "hash": "md5:637a8141358aab2f4824d889c7842078"
         }
     },
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dl.hdslb.com/bili/bililive/win/Livehime-Win-beta-$version-x64.exe#/dl.7z"
+                "url": "https://dl.hdslb.com/bili/bililive/win/Livehime-Win-beta-$version-x64.exe"
             }
         },
         "hash": {
