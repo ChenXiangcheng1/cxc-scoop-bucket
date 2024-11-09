@@ -15,6 +15,12 @@
     "installer": {
         "script": "Expand-InnoArchive -Path \"$dir\\$fname\" -Removal"
     },
+    "shortcuts": [
+        [
+            "livehime.exe",
+            "livehime"
+        ]
+    ],
     "checkver": {
         "url": "https://api.live.bilibili.com/xlive/app-blink/v1/liveVersionInfo/getHomePageLiveVersion?system_version=2",
         "jsonpath": "$.data.curr_version"
