@@ -11,6 +11,10 @@
             "hash": "md5:637a8141358aab2f4824d889c7842078"
         }
     },
+    "depends": "innounp",
+    "installer": {
+        "script": "Expand-InnoArchive -Path \"$dir\\$fname\" -Removal"
+    },
     "checkver": {
         "url": "https://api.live.bilibili.com/xlive/app-blink/v1/liveVersionInfo/getHomePageLiveVersion?system_version=2",
         "jsonpath": "$.data.curr_version"
