@@ -1,5 +1,5 @@
 {
-    "version": "7.17.0.9343",
+    "version": "7.18.1.9408",
     "description": "bilibili直播姬",
     "homepage": "https://link.bilibili.com/p/eden/download#/web",
     "license": {
@@ -7,8 +7,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dl.hdslb.com/bili/bililive/win/Livehime-Win-beta-7.17.0.9343-x64.exe",
-            "hash": "md5:1bdc04381ccc00c63f7f0cb6b6d8de84"
+            "url": "https://dl.hdslb.com/bili/bililive/win/Livehime-Win-beta-7.18.1.9408-x64.exe",
+            "hash": "md5:2e9d0f67df991f5474bfeb6b6f3707a2"
         }
     },
     "depends": "innounp",
