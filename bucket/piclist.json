@@ -1,18 +1,18 @@
 {
-    "version": "3.2.1",
+    "version": "3.2.2",
     "description": "PicList is an efficient cloud storage and image hosting platform management tool. An image upload and manage tool, base on PicGo.",
     "homepage": "https://piclist.cn/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kuingsmile/PicList/releases/download/v3.2.1/PicList-Setup-3.2.1-x64.exe#/dl.7z",
+            "url": "https://github.com/Kuingsmile/PicList/releases/download/v3.2.2/PicList-Setup-3.2.2-x64.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "hash": "sha512:0c3ae8080ad6d0062bbd13626bd2b3034024ca6f7e3dd3ef422d96bda0f7cb2c6c28628002059920d9d743c6634211e5ead115d23270ffde89b57269d80eaf64"
+            "hash": "sha512:a12e5ffe77d991bf52184ac552e5e5e4ec5e5bccb7c99c6cd402e6e5e4281859c8bb306cdbcfffede13eee480938de23ca736b3a45e231f354191b5cdaa1f372"
         },
         "32bit": {
-            "url": "https://github.com/Kuingsmile/PicList/releases/download/v3.2.1/PicList-Setup-3.2.1-ia32.exe#/dl.7z",
+            "url": "https://github.com/Kuingsmile/PicList/releases/download/v3.2.2/PicList-Setup-3.2.2-ia32.exe#/dl.7z",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
-            "hash": "sha512:927efe4fe196506cadeefbfbfadbee5983ecd54348a9ec752e427d584bb3abcd4e10bd103c6a225668a6817cf8c47c899dc0037a29c2ff5f25da0c2207454227"
+            "hash": "sha512:575f6a66551842c9fe4460725184a869ecaacb384daa637fa8a680dd2cea3a74238c68d9205577e8f67fdf355409f88dceefee5ac004e936980fd264c7bcc251"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$R0\", \"$dir\\resources\\app-update.yml\"  -Force -Recurse",
